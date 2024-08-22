@@ -1,0 +1,45 @@
+
+{
+  "weapons": [
+    { "id": 1, "name": "Great Sword", "attack": 100 },
+    { "id": 2, "name": "Long Sword", "attack": 90 },
+    { "id": 3, "name": "Martelo", "attack": 130 },
+    { "id": 4, "name": "arco", "attack": 120 }
+  ],
+  "armor": {
+    "helmet": [
+      { "id": 1, "name": "Leather Helmet", "defense": 10, "skills": [{ "name": "Attack Boost", "level": 1 }], "slots": 2 },
+      { "id": 2, "name": "Chainmail Helmet", "defense": 15, "skills": [{ "name": "Defense Boost", "level": 1 }], "slots": 1 },
+      { "id": 3, "name": "Vitality Helmet", "defense": 15, "skills": [{ "name": "Vitality Boost", "level": 1 }], "slots": 1 }
+    ],
+    "chest": [
+      { "id": 4, "name": "Leather Chest", "defense": 20, "skills": [{ "name": "Attack Boost", "level": 2 }], "slots": 3 },
+      { "id": 5, "name": "Chainmail Chest", "defense": 25, "skills": [{ "name": "Defense Boost", "level": 2 }], "slots": 2 },
+      { "id": 6, "name": "Vitality Chest", "defense": 25, "skills": [{ "name": "Vitality Boost", "level": 1 }], "slots": 2 }
+    ],
+    "gloves": [
+      { "id": 7, "name": "Leather Gloves", "defense": 5, "skills": [], "slots": 1 },
+      { "id": 8, "name": "Chainmail Gloves", "defense": 10, "skills": [], "slots": 2 },
+      { "id": 9, "name": "Vitality Gloves", "defense": 10, "skills": [{ "name": "Vitality Boost", "level": 1 }], "slots": 2 }
+    ],
+    "belt": [
+      { "id": 10, "name": "Leather Belt", "defense": 5, "skills": [], "slots": 1 },
+      { "id": 11, "name": "Chainmail Belt", "defense": 10, "skills": [], "slots": 2 },
+      { "id": 12, "name": "Vitality Belt", "defense": 10, "skills": [{ "name": "Vitality Boost", "level": 1 }], "slots": 2 }
+    ],
+    "boots": [
+      { "id": 13, "name": "Leather Boots", "defense": 10, "skills": [{ "name": "Attack Boost", "level": 1 }], "slots": 2 },
+      { "id": 14, "name": "Chainmail Boots", "defense": 15, "skills": [{ "name": "Defense Boost", "level": 1 }], "slots": 3 },
+      { "id": 15, "name": "Vitality Boots", "defense": 15, "skills": [{ "name": "Vitality Boost", "level": 1 }], "slots": 3 }
+    ],
+    "amulet": [
+      { "id": 16, "name": "Strength Amulet", "defense": 0, "skills": [{ "name": "Attack Boost", "level": 3 }], "slots": 0 },
+      { "id": 17, "name": "Defense Amulet", "defense": 0, "skills": [{ "name": "Defense Boost", "level": 3 }], "slots": 0 }
+    ]
+  },
+  "skills": [
+    { "id": 1, "name": "Attack Boost", "effect": "Increases attack power" },
+    { "id": 2, "name": "Defense Boost", "effect": "Increases defense power" },
+    { "id": 3, "name": "Vitality Boost", "effect": "Increases life" }
+  ]
+}

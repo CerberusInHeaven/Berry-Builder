@@ -1,0 +1,198 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #cbcbcb;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.App-header {
+  width: 100%;
+  background-color: #007bff;
+  padding: 10px 20px;
+  color: white;
+  box-sizing: border-box;
+}
+
+.App-header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.App-header a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.App-header a:hover {
+  text-decoration: underline;
+}
+
+.builder-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.builder {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.selections, .selectors, .skills {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.selections {
+  border-right: 1px solid #ccc;
+  padding-right: 20px;
+}
+
+.skills {
+  border-left: 1px solid #ccc;
+  padding-left: 20px;
+}
+h1{
+  color: #8c182b;
+}
+h3, h4, h5 {
+  margin: 0 0 10px;
+}
+
+h4 {
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  cursor: pointer;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+li:hover {
+  background-color: #e0e0e0;
+}
+
+input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 10px;
+  background-color: #8c182b;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.2s;
+
+ 
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.selections > div, .skills > div {
+  margin-bottom: 20px;
+}
+
+.selections p, .skills p {
+  margin: 0;
+}
+
+.saved-sets {
+  margin-top: 20px;
+}
+
+.saved-sets div {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.saved-sets h5 {
+  margin: 0 0 10px;
+}
+
+.saved-sets button {
+  margin-top: 10px;
+}
+
+/* Media Queries for Mobile (iPhone XR) */
+@media (max-width: 414px) {
+  .App {
+    padding: 10px;
+  }
+
+  .App-header nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .App-header a {
+    padding: 5px;
+  }
+
+  .builder-container {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .builder {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .selections, .selectors, .skills {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+  }
+
+  .selections, .skills {
+    border: none;
+    padding: 0;
+  }
+
+  input[type="text"] {
+    width: 100%;
+  }
+}
